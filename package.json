@@ -1,0 +1,11 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sebastiandelaroche/rabbitmq.git",
+  "author": "sebastianroche <sebastianroche17@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}
