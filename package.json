@@ -1,11 +1,21 @@
 {
   "name": "rabbitmq",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/sebastiandelaroche/rabbitmq.git",
   "author": "sebastianroche <sebastianroche17@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha './tests/**/*.spec.ts'  --opts ./tests/mocha.opts"
+  },
   "dependencies": {
     "amqplib": "^0.5.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.7",
+    "@types/mocha": "^5.2.0",
+    "mocha": "^5.1.1",
+    "typescript": "^2.8.3"
   }
 }
